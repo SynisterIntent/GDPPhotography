@@ -1,5 +1,20 @@
-.placeHolder
+#placeHolder
 {
-	max-width="90%";
-	max-height="90%";
+	width: 90%;
+	height: 40%;
+	position: absolute;
+	top: 23%;
+	padding: 36px 36px 36px 36px;
+}
+
+#coming
+{
+
+font-size: 1.6em;
+position: absolute;
+top: 67%;
+left: 31%;
+width: 40%;
+height: 5%ß;
+
 }

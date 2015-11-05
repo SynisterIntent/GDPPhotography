@@ -1,7 +1,9 @@
 <?php
-include '../functions/functions.php';
 
-echo placeHolder();
+echo '<link href="./css/style.css" rel="stylesheet">';
+include ('./functions/functions.php');
+
+placeHolder();
 
 
 ?>
