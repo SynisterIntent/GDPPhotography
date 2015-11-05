@@ -1,6 +1,6 @@
 function placeHolder()
 {
 
-<img class='placeHolder' src="/images/logo.png"/>
+<img class='placeHolder' src="../images/logo.png"/>
 
 }
