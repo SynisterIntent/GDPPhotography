@@ -11,10 +11,31 @@
 {
 
 font-size: 1.6em;
+font-family: 'Poiret One', cursive;
 position: absolute;
 top: 67%;
 left: 31%;
 width: 40%;
 height: 5%ß;
 
+}
+
+/* unvisited link */
+a:link {
+    color: grey;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+}
+
+/* selected link */
+a:active {
+    color: grey;
 }
