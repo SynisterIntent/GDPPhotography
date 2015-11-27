@@ -7,6 +7,14 @@
 	padding: 36px 36px 36px 36px;
 }
 
+#Mobile
+{
+  width: 420px;
+  position: absolute;
+  top: 23%;
+  padding: 36px 36px 36px 36px;
+}
+
 #coming
 {
 
@@ -39,3 +47,13 @@ a:hover {
 a:active {
     color: grey;
 }
+ @media only screen and (max-device-width: 479px) {
+   html { background-image:url(ai-cookie.php?maxwidth=479); } }
+ @media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
+   html { background-image:url(ai-cookie.php?maxwidth=767); } }
+ @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+   html { background-image:url(ai-cookie.php?maxwidth=991); } }
+ @media only screen and (min-device-width: 992px) and (max-device-width: 1381px) {
+   html { background-image:url(ai-cookie.php?maxwidth=1381); } }
+ @media only screen and (min-device-width: 1382px) {
+   html { background-image:url(ai-cookie.php?maxwidth=unknown); } }
