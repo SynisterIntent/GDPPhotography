@@ -3,7 +3,6 @@
 </head>
 <?php
 require_once 'includes/Mobile_Detect.php';
-require_once 'includes/adaptive-images.php';
 
 $detect = new Mobile_Detect;
 // Any mobile device (phones or tablets).
